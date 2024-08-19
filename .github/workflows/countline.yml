@@ -1,0 +1,26 @@
+name: Count Lines of md
+on: [pull_request]
+
+jobs:
+  count-lines:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+
+      - name: Count Lines of md 📊
+        run: |
+          # 탐색할 디렉터리 설정, 기본값은 현재 디렉터리
+          DIRECTORY=${1:-.}
+
+          # .md 파일 찾기 및 줄 수 계산
+          find "$DIRECTORY" -type f -name "*.md" | while read -r file; do
+            line_count=$(wc -l < "$file")
+            if [ "$line_count" -lt 10 ]; then
+              echo "Error: '$file' 파일이 10줄보다 적게 작성되었어요. (현재 : $line_count 줄)." >&2
+              exit 1
+            fi
+          done
+
+          echo "모든 .md 파일이 10줄의 제한 조건을 충족합니다."

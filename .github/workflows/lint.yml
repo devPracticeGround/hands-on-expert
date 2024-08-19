@@ -1,0 +1,14 @@
+name: Test Lint On PR
+on: [pull_request]
+
+jobs:
+  lint-test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
+
+      - run: npm install
+      - run: npm run lint
+      # If lint fixes issues, files will be changed. If so, fail the build.
+      - run: git diff --exit-code
