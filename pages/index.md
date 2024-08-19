@@ -1,6 +1,6 @@
-# KT 클라우드네이티브 아카데미 여러분들 환영합니다.
+# Expert Hands-On에 오신 여러분들 환영합니다.
 
-![welcome](./IMG_8242.gif)
+![welcome](https://www.stagbeetles.com/data/editor/1710/thumb-1935611070_NuYkOtqv_de2dd1c7044025ca920a169c7c3b38a784bae5d4_900x506.jpg)
 
 - DevOps와 CI/CD 이해 과정에 참여하신 여러분들의 실습을 위한 사이트 입니다.
 - 본 사이트는 Nextra라는 프레임워크를 기반으로 생성 된 사이트로, MarkDown파일들을 생성하는 것으로 쉽게 페이지를 생성할 수 있도록 구성되어 있습니다.
