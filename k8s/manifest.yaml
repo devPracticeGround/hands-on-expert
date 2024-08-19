@@ -37,7 +37,7 @@ metadata:
 spec:
   ingressClassName: "nginx"
   rules:
-  - host: practice-00.geunsam2.xyz # 도메인 주소 변경 요망!!
+  - host: practice-xx.geunsam2.xyz # 도메인 주소 변경 요망!!
     http:
       paths:
       - path: /
