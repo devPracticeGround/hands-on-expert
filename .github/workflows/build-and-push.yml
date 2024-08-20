@@ -29,7 +29,7 @@ jobs:
     needs: build-and-push-docker
     runs-on: ubuntu-latest
     env:
-      EKS_PATH: helm-projects/ktcloud-0321
+      EKS_PATH: helm-projects/handson-expert
       IMAGE_TAG: ${{ secrets.DOCKER_USERNAME }}/cicd-practice:${{ github.sha }}
     steps:
       - uses: actions/checkout@v2
@@ -44,11 +44,11 @@ jobs:
           mkdir -p ${{ env.EKS_PATH}}
           echo '"replicaCount": "1"' > ${{ env.EKS_PATH }}/values.yaml
           echo '"image": "${{ env.IMAGE_TAG }}"' >> ${{ env.EKS_PATH }}/values.yaml
-          echo '"host": "ktcloud-0321.geunsam2.xyz"' >> ${{ env.EKS_PATH }}/values.yaml
+          echo '"host": "handson-expert.geunsam2.xyz"' >> ${{ env.EKS_PATH }}/values.yaml
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add .
-          git commit -m "Update file.txt by GitHub Actions[kt_cloud_expert]"
+          git commit -m "Update file.txt by GitHub Actions[handson-expert]"
 
       - name: Push Changes
         run: |
