@@ -2,7 +2,7 @@
 
 ## 🥸 인적사항
 
-- name : 염근철
+- name : 염근철!!!
 - github : [GeunSam2](https://github.com/GeunSam2)
 - age : 미상
 - blog : [모두의 근삼이](https://ykarma1996.tistory.com/)
