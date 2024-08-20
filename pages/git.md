@@ -1,4 +1,4 @@
-# Git 초심지를 위한 CheatSheet
+# Git 초심자를 위한 CheatSheet
 
 > 로컬에 git repo clone
 
@@ -25,7 +25,7 @@ git push -u origin main
 
 > 내 로컬 저장소에 원본 원격 저장소(upstream 별명으로) 추가
 
-```bash 
+```bash
 git remote add upstream https://github.com/devPracticeCenter/kt_cloud_cicd_basic.git
 ```
 
