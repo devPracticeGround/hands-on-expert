@@ -22,7 +22,7 @@
 - 의존 패키지 설치
 
 ```bash
-npm install 
+npm install
 ```
 
 - 로컬 실행
