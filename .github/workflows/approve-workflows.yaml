@@ -1,0 +1,44 @@
+name: Approve All Workflows for Open PRs
+
+on:
+  workflow_dispatch: # 수동 트리거
+
+jobs:
+  approve-all:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: List open pull requests
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        OPEN_PRS=$(gh pr list --state open --json number --jq '.[].number')
+        echo "Open PRs: $OPEN_PRS"
+        echo "PR_LIST=$OPEN_PRS" >> $GITHUB_ENV
+
+    - name: Approve workflows for each PR
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        for PR_NUMBER in ${{ env.PR_LIST }}; do
+          echo "Processing PR #$PR_NUMBER"
+
+          # Get the workflow runs for this PR
+          PENDING_WORKFLOWS=$(gh api \
+            -H "Accept: application/vnd.github.v3+json" \
+            /repos/${{ github.repository }}/actions/runs?status=waiting&event=pull_request&per_page=100 | jq -r '.workflow_runs[] | select(.head_branch=="pr-'$PR_NUMBER'").id')
+
+          # Approve each workflow run
+          for WORKFLOW_ID in $PENDING_WORKFLOWS; do
+            echo "Approving workflow $WORKFLOW_ID for PR #$PR_NUMBER"
+            gh api \
+              -X POST \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              /repos/${{ github.repository }}/actions/runs/$WORKFLOW_ID/approve \
+              -f '[]'
+          done
+        done
