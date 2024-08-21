@@ -18,7 +18,6 @@
 ## 🐿 아무말
 
 ![profile](https://avatars.githubusercontent.com/u/41275199?v=4)
-
 > 이건 제 아이콘이에요.
 
 Docker Captain 으로 활동하고 있어요.
