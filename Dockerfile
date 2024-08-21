@@ -1,6 +1,5 @@
 FROM node:21.7.1 as base
 
-# npm install & npm run build
 FROM base as builder
 
 WORKDIR /usr/src/app
@@ -12,7 +11,6 @@ COPY . .
 
 RUN npm run build
 
-# copy file
 FROM base as production
 
 WORKDIR /usr/src/app
