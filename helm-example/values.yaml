@@ -1,3 +1,3 @@
-"replicaCount": "6"
-"image": "nemonemo96/cicd-practice:latest"
-"host": "helm-example06.geunsam2.xyz"
+"replicaCount": "1"
+"image": "gbmf97/cicd-practice:latest"
+"host": "06-nemonemo.geunsam2.xyz"
