@@ -6,10 +6,10 @@
 git clone [내려받을 저장소]
 ```
 
-> 로컬에서 변경사항 모두 commit
+> 로컬에서 변경사항 commit
 
 ```bash
-git add .
+git add '수정한 파일 경로'
 git commit -m '커밋 메시지'
 ```
 
@@ -26,7 +26,7 @@ git push -u origin main
 > 내 로컬 저장소에 원본 원격 저장소(upstream 별명으로) 추가
 
 ```bash 
-git remote add upstream https://github.com/devPracticeCenter/kt_cloud_cicd_basic.git
+git remote add upstream https://github.com/devPracticeCenter/hands-on-expert.git
 ```
 
 > 원격 저장소 내용 동기화
