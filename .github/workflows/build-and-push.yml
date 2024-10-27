@@ -7,7 +7,7 @@ on:
 
 jobs:
   build-and-push-docker:
-    if: github.repository == 'devPracticeCenter/hands-on-expert'
+    if: github.repository == 'devPracticeGround/hands-on-expert'
     runs-on: ubuntu-latest
     env:
       IMAGE_TAG: ${{ secrets.DOCKER_USERNAME }}/cicd-practice:${{ github.sha }}
@@ -28,7 +28,7 @@ jobs:
 
   modify-eks-repo:
     needs: build-and-push-docker
-    if: github.repository == 'devPracticeCenter/hands-on-expert'
+    if: github.repository == 'devPracticeGround/hands-on-expert'
     runs-on: ubuntu-latest
     env:
       EKS_PATH: helm-projects/handson-expert
@@ -36,7 +36,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          repository: devPracticeCenter/eks-apps
+          repository: devPracticeGround/eks-apps
           token: ${{ secrets.REPO_TOKEN }}
           path: eks-apps
 

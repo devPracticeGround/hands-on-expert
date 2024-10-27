@@ -26,7 +26,7 @@ git push -u origin main
 > 내 로컬 저장소에 원본 원격 저장소(upstream 별명으로) 추가
 
 ```bash 
-git remote add upstream https://github.com/devPracticeCenter/hands-on-expert.git
+git remote add upstream https://github.com/devPracticeGround/hands-on-expert.git
 ```
 
 > 원격 저장소 내용 동기화
