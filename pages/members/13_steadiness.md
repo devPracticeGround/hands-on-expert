@@ -34,3 +34,4 @@ you.today('happy!')
 ---
 
 - hyunjunsin 최고
+- 트리거 재실행
