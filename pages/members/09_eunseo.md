@@ -1,6 +1,6 @@
 # 최은서
 
-## 🍑 인적사항
+## 🐥 인적사항
 
 - name : 최은서
 - github : [eunnseo](https://github.com/eunnseo)
