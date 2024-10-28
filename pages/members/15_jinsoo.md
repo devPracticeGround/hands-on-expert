@@ -1,0 +1,20 @@
+# 최진수
+
+## 🥸 인적사항
+
+- name : 최진수
+- github : [https://github.com/jinsoo8701]
+- age : 미상
+- blog : N/A
+- 회사 : 오토에버
+- 부서 : 클래식오토사4팀
+
+```python
+import you
+
+you.today('happy!')
+```
+
+---
+
+![profile](https://avatars.githubusercontent.com/u/41275199?v=4)
