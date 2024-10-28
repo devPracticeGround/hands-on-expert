@@ -20,5 +20,5 @@
 ```python
 import random
 
-print('hi! happy day!')
+print('hi,hello! happy day!')
 ```
