@@ -24,4 +24,5 @@
 # 젠킨스 테스트
 ```javascript
 print ('hi')
+print ('hi')
 ```
