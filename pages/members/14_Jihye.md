@@ -11,3 +11,5 @@
 
 ## 교육 정리
 1. 교육 정리 링크: [Jenkins 와 Git 을 이용한 CI/CD](https://docs.google.com/document/d/16PDzh0O-Df4jL53TtiUPbhn1qIwHV6Mbl88aO6NiK8c/edit?usp=sharing)
+
+2. 테스트 Reposityry : [Jihye's hands-on-expert](https://github.com/Jihye588/hands-on-expert)
