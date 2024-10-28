@@ -16,3 +16,8 @@
 - **세계일주**
 - 스카이다이빙
 - 초호화 크루즈 여행
+
+```java
+import java.util.*
+System.out.println("Hello!");
+```
