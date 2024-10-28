@@ -4,8 +4,6 @@
 
 - name : 최은서
 - github : [eunnseo](https://github.com/eunnseo)
-- age : 비밀
-- blog : [없어용]()
 - 회사 : 현대오토에버
 - 부서 : 클래식오토사3팀
 
