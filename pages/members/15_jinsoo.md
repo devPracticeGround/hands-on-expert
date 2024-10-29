@@ -4,7 +4,7 @@
 
 - name : 최진수
 - github : [https://github.com/jinsoo8701]
-- age : ?
+- age : ??
 - blog : N/A
 - 회사 : 오토에버
 - 부서 : 클래식오토사4팀
