@@ -6,8 +6,9 @@
 - github : [https://github.com/jinsoo8701]
 - age : ??
 - blog : N/A
-- 회사 : 오토에버
+- 회사 : 현대오토에버
 - 부서 : 클래식오토사4팀
+empty line
 
 ```python
 import you
