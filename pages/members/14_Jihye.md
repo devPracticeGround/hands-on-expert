@@ -10,7 +10,7 @@
 - Github : [Jihye's Repository](https://github.com/Jihye588?tab=repositories)
 
 ## 오늘도 행복하게 😊
-[뚱이](https://i.namu.wiki/i/Q6BIqhZWqyhBAFmeZoOWIFO2Ttw1X0xOimLTY0WyohXIadIRIoxaAWc6yoggyEKohkI3aDCoKXsBlp6rvL-MFg.webp)
+![뚱이](https://i.namu.wiki/i/Q6BIqhZWqyhBAFmeZoOWIFO2Ttw1X0xOimLTY0WyohXIadIRIoxaAWc6yoggyEKohkI3aDCoKXsBlp6rvL-MFg.webp)
 
 ---
 
