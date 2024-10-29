@@ -17,8 +17,8 @@ jobs:
           # .md 파일 찾기 및 줄 수 계산
           find "$DIRECTORY" -type f -name "*.md" | while read -r file; do
             line_count=$(wc -l < "$file")
-            if [ "$line_count" -lt 10 ]; then
-              echo "Error: '$file' 파일이 10줄보다 적게 작성되었어요. (현재 : $line_count 줄)." >&2
+            if [ "$line_count" -lt 20 ]; then
+              echo "Error: '$file' 파일이 20줄보다 적게 작성되었어요. (현재 : $line_count 줄)." >&2
               exit 1
             fi
           done
