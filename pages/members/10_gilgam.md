@@ -18,3 +18,4 @@ print ("have a good time!!!")
 - Virgin Mode에서 긴급 시동 기능
 - SSB Symbol Dimming 기능 모델 및 사양 개발
 - 사용하지 않는 신호 삭제
+- Terminal상태별 OTA에 의한 시동 금지 조건 수정 
