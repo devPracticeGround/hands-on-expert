@@ -13,13 +13,8 @@
 import aaa
 print ("have a good time!!!")
 ```
-1
-2
-3
-4
-5
-6
-7
-8
-9
-0
+## 금일 할일
+- Remort Start 모델 개발
+- Virgin Mode에서 긴급 시동 기능
+- SSB Symbol Dimming 기능 모델 및 사양 개발
+- 사용하지 않는 신호 삭제
