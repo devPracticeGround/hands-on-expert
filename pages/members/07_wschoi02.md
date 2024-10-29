@@ -11,6 +11,13 @@ GIT과 DOCKER를 활용한 CI/CD 교육 수강 중
 printf('hello world')
 ```
 
-## 식당 공사
-10/28~10/30 
-외부에서 식사해야함
+github action 실습중..
+
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
+line 수 채우기..
