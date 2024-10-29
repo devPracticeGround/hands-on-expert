@@ -33,5 +33,11 @@ you.today('happy!')
 
 ---
 
-- hyunjunsin 최고
-- 트리거 재실행
+
+PR 테스트 하기 
+새로운 커밋 생성 후 푸쉬
+
+1. 코드리뷰 하는 법
+
+PR Update
+
