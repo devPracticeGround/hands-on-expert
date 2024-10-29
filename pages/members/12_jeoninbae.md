@@ -18,7 +18,7 @@
 - javascript
 - mariadb, oracle, mysql, mssql
 - elasticsearch
-- 
+- etc...
 ```
 
 # 젠킨스 테스트
