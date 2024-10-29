@@ -4,7 +4,7 @@
 
 - name : 조용성
 - github : [YYOONGS](https://github.com/yyoongs)
-- age : 미상?????!!!!!
+- age : xx
 - 회사 : 현대오토에버
 - 부서 : 국내지도개발팀
 
