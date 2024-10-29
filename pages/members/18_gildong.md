@@ -17,4 +17,4 @@ import random
 print ('hi')
 ```
 
-- geunsam2 최고
+- geunsam2 최고!!
